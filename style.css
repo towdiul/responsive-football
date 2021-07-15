@@ -383,10 +383,10 @@ Media Queries
         margin-top: 156px;
     }
 .form_div input[type="text"],input[type="password"]{
-    width:80%;
+        width:80%;
     }
 .form_div input[type="submit"]{
-    width:80%;
+        width:80%;
     }
 }
 
