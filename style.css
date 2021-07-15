@@ -257,9 +257,50 @@ height: 110px;
 
 .footer-container p{
     font-size: 18px;
-line-height: 24px;
+    line-height: 24px;
     
 }
+/* signup style */
+.form-container{
+    text-align:center;
+}
+.form_div{
+    margin-top: 50px;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    border-radius: 20px;
+    width: 330px;
+    margin-left: 485px;
+    padding: 10px;
+    background-color: #3225a03b;
+}
+.form_div .form_label{
+    margin:15px;
+    margin-bottom:30px;
+    font-size:25px;
+    font-weight:bold;
+    color:white;
+    text-decoration: none;
+}
+.form_div input[type="text"],input[type="password"]{
+    width:230px;
+    height:40px;
+    border-radius:2px;
+    font-size:17px;
+    padding-left:5px;
+    border:none;
+}
+.form_div input[type="submit"]{
+    width:230px;
+    height:40px;
+    border:none;
+    border-radius:2px;
+    font-size:17px;
+    background-color:#E02C6D;
+    border-bottom:3px solid #a52755;
+    color:white;
+    font-weight:bold;
+}
+
 /*-------------- 
 Media Queries
 -----------------*/
@@ -268,15 +309,84 @@ Media Queries
     header{
         display: none;
     }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 719px;
+    }
+    .watch-title{
+        margin-left: 16px;
+        margin-top: 112px;
+    }
+    .watch-title h1{
+        font-size: 36px;
+        line-height: 50px;
+        width: 278px;
+        height: 138px;
+    }
+    .banner-section img{
+        margin-top: 10px;
+        margin-left: 84px;
+        width: 329px;
+        height: 259.17px;
+    }
     .players-container {
         display: grid;
-        justify-content: center;
-        grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 27px;
-        grid-column-gap: 30px;
-        margin-left: 150px;
-        margin-top: 60px;
-        /* Width: 1050px; */
+        grid-template-columns: repeat(1 , 1fr);
+        margin: 80px;
+    }
+    .highlights-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .highlights-info{
+        width: 329px;
+        height: 143px;
+    }
+    #font-color{
+        margin: 0px 51px;
+        width: 329px;
+        height: 299px;
+    }
+    .footer-banner{
+        display: none;
+        width: 328px;
+        height: 248px;
+    
+        margin: 45px auto;
+    }
+    .footer-banner img{
+        margin: 0px;
+    
+        width: 328px;
+        height: 248px;
+    }
+    .youtube-info{
+        width: 315px;
+        height: 248px;
+    }
+    .youtube-info iframe{
+        box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+        border-radius: 10px;
+        width: 317px;
+        height: 248px;
+        margin-top: 109px;
+    }
+    .footer-icon img{
+        width: 275px;
+        height: 63px;
+    }
+    .form_div{
+        width: 60%;
+        margin-left: 18%;
+        margin-top: 156px;
+    }
+.form_div input[type="text"],input[type="password"]{
+    width:80%;
+    }
+.form_div input[type="submit"]{
+    width:80%;
     }
 }
 
